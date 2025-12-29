@@ -3829,3 +3829,788 @@ INSERT INTO apexflow_system_user (
 2025-12-29 19:55:27.276 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 1 ms. ID: 8, Username: timestamp_test
 2025-12-29 19:55:27.276 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 8
 2025-12-29 19:55:27.277 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 8, Username: timestamp_test
+2025-12-29 19:59:58.702 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: newuser
+2025-12-29 19:59:58.708 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 6
+2025-12-29 19:59:58.708 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 6 ms. Username: newuser, ID: 6
+2025-12-29 19:59:58.716 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 6
+2025-12-29 19:59:58.716 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 6, Username: newuser
+2025-12-29 19:59:58.731 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 19:59:58.731 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 1, Username: admin
+2025-12-29 19:59:58.735 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 999
+2025-12-29 19:59:58.735 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] No user found with ID: 999 (searched for 0 ms)
+2025-12-29 19:59:58.740 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager1
+2025-12-29 19:59:58.740 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 0 ms. Username: manager1, ID: 2
+2025-12-29 19:59:58.746 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_EMAIL] Searching for user by email: manager2@apexflow.com
+2025-12-29 19:59:58.746 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_EMAIL] User found in 0 ms. Email: manager2@apexflow.com, ID: 3
+2025-12-29 19:59:58.751 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 19:59:58.752 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 2, Username: manager1
+2025-12-29 19:59:58.752 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 2, Username: manager1
+2025-12-29 19:59:58.752 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 0 ms. ID: 2, Username: manager1
+2025-12-29 19:59:58.752 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 19:59:58.752 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 2, Username: manager1
+2025-12-29 19:59:58.759 [main] DEBUG com.apex.core.dao.UserDAO - [UPDATE_LAST_LOGIN_TIME] Updating last login time for user ID: 1
+2025-12-29 19:59:58.759 [main] DEBUG com.apex.core.dao.UserDAO - [UPDATE_LAST_LOGIN_TIME] Last login time updated successfully in 0 ms. User ID: 1
+2025-12-29 19:59:58.759 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 19:59:58.763 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 4 ms. ID: 1, Username: admin
+2025-12-29 19:59:58.768 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER_STATUS] Updating user status. User ID: 1, New Status: 0
+2025-12-29 19:59:58.768 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER_STATUS] User status updated successfully in 0 ms. User ID: 1, New Status: 0
+2025-12-29 19:59:58.768 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 19:59:58.769 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 1, Username: admin
+2025-12-29 19:59:58.773 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 19:59:58.775 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 2 ms. ID: 4, Username: operator1
+2025-12-29 19:59:58.775 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] Attempting to delete user. User ID: 4
+2025-12-29 19:59:58.775 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] User deleted successfully in 0 ms. User ID: 4
+2025-12-29 19:59:58.775 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 19:59:58.775 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] No user found with ID: 4 (searched for 0 ms)
+2025-12-29 19:59:58.777 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] Attempting to delete user. User ID: 999
+2025-12-29 19:59:58.777 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] No user found to delete. User ID: 999 (took 0 ms)
+2025-12-29 19:59:58.784 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 1, PageSize: 2, Offset: 0
+2025-12-29 19:59:58.784 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 2 users in 0 ms. Page: 1, PageSize: 2
+2025-12-29 19:59:58.784 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 2, PageSize: 2, Offset: 2
+2025-12-29 19:59:58.786 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 2 users in 2 ms. Page: 2, PageSize: 2
+2025-12-29 19:59:58.786 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 3, PageSize: 2, Offset: 4
+2025-12-29 19:59:58.786 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 1 users in 0 ms. Page: 3, PageSize: 2
+2025-12-29 19:59:58.790 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieving users by status. Status: 1, Page: 1, PageSize: 10
+2025-12-29 19:59:58.792 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieved 4 users with status 1 in 2 ms
+2025-12-29 19:59:58.792 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieving users by status. Status: 0, Page: 1, PageSize: 10
+2025-12-29 19:59:58.794 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieved 1 users with status 0 in 2 ms
+2025-12-29 19:59:58.798 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '经理', Page: 1, PageSize: 10
+2025-12-29 19:59:58.800 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 2 users with keyword '经理' in 2 ms
+2025-12-29 19:59:58.805 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: 'apexflow.com', Page: 1, PageSize: 10
+2025-12-29 19:59:58.809 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 5 users with keyword 'apexflow.com' in 4 ms
+2025-12-29 19:59:58.813 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '8001', Page: 1, PageSize: 10
+2025-12-29 19:59:58.813 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 5 users with keyword '8001' in 0 ms
+2025-12-29 19:59:58.819 [main] DEBUG com.apex.core.dao.UserDAO - [COUNT_USERS] Counting total users
+2025-12-29 19:59:58.821 [main] INFO  com.apex.core.dao.UserDAO - [COUNT_USERS] Total users: 5 (counted in 2 ms)
+2025-12-29 19:59:58.825 [main] DEBUG com.apex.core.dao.UserDAO - [COUNT_ACTIVE_USERS] Counting active users
+2025-12-29 19:59:58.827 [main] INFO  com.apex.core.dao.UserDAO - [COUNT_ACTIVE_USERS] Active users: 4 (counted in 2 ms)
+2025-12-29 19:59:58.833 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Checking if username exists: admin
+2025-12-29 19:59:58.833 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Username 'admin' exists: true (checked in 0 ms)
+2025-12-29 19:59:58.839 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Checking if username exists: nonexistent
+2025-12-29 19:59:58.839 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Username 'nonexistent' exists: false (checked in 0 ms)
+2025-12-29 19:59:58.841 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Checking if email exists: admin@apexflow.com
+2025-12-29 19:59:58.841 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Email 'admin@apexflow.com' exists: true (checked in 0 ms)
+2025-12-29 19:59:58.847 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Checking if email exists: nonexistent@apexflow.com
+2025-12-29 19:59:58.847 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Email 'nonexistent@apexflow.com' exists: false (checked in 0 ms)
+2025-12-29 19:59:58.883 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: admin
+2025-12-29 19:59:58.885 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 2 ms. Username: admin, ID: 1
+2025-12-29 19:59:58.902 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager1
+2025-12-29 19:59:58.904 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 2 ms. Username: manager1, ID: 2
+2025-12-29 19:59:58.910 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager2
+2025-12-29 19:59:58.912 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 2 ms. Username: manager2, ID: 3
+2025-12-29 19:59:58.916 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: operator1
+2025-12-29 19:59:58.916 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 0 ms. Username: operator1, ID: 4
+2025-12-29 19:59:58.922 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: inactive_user
+2025-12-29 19:59:58.922 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 0 ms. Username: inactive_user, ID: 5
+2025-12-29 19:59:58.946 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 19:59:58.949 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 3 ms. ID: 1, Username: admin
+2025-12-29 19:59:58.953 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 19:59:58.955 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 2 ms. ID: 2, Username: manager1
+2025-12-29 19:59:58.960 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 3
+2025-12-29 19:59:58.960 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 3, Username: manager2
+2025-12-29 19:59:58.963 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 19:59:58.967 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 4 ms. ID: 4, Username: operator1
+2025-12-29 19:59:58.971 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 5
+2025-12-29 19:59:58.974 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 3 ms. ID: 5, Username: inactive_user
+2025-12-29 19:59:58.984 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 19:59:58.984 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 1, Username: admin
+2025-12-29 19:59:58.984 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 19:59:58.984 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 4, Username: operator1
+2025-12-29 19:59:58.991 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: minimal
+2025-12-29 19:59:58.993 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 7
+2025-12-29 19:59:58.993 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 2 ms. Username: minimal, ID: 7
+2025-12-29 19:59:58.993 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 7
+2025-12-29 19:59:58.994 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 7, Username: minimal
+2025-12-29 19:59:58.997 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 1, PageSize: 10, Offset: 0
+2025-12-29 19:59:58.997 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 0 users in 0 ms. Page: 1, PageSize: 10
+2025-12-29 19:59:59.000 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '不存在的关键词', Page: 1, PageSize: 10
+2025-12-29 19:59:59.000 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 0 users with keyword '不存在的关键词' in 0 ms
+2025-12-29 19:59:59.006 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 999, Username: nonexistent
+2025-12-29 19:59:59.006 [main] WARN  com.apex.core.dao.UserDAO - [UPDATE_USER] User update did not affect any rows. ID: 999 (took 0 ms)
+2025-12-29 19:59:59.011 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: timestamp_test
+2025-12-29 19:59:59.013 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 8
+2025-12-29 19:59:59.013 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 2 ms. Username: timestamp_test, ID: 8
+2025-12-29 19:59:59.025 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 8, Username: timestamp_test
+2025-12-29 19:59:59.025 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 0 ms. ID: 8, Username: timestamp_test
+2025-12-29 19:59:59.027 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 8
+2025-12-29 19:59:59.027 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 8, Username: timestamp_test
+2025-12-29 20:11:08.513 [main] INFO  com.apex.core.dao.AfterSalesDAO - Creating after sales record for order: ORDER001
+2025-12-29 20:11:08.530 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales record created successfully. ID: 5
+2025-12-29 20:11:08.551 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 5
+2025-12-29 20:11:08.585 [main] INFO  com.apex.core.dao.AfterSalesDAO - Creating after sales record for order: ORDER002
+2025-12-29 20:11:08.587 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales record created successfully. ID: 6
+2025-12-29 20:11:08.587 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 6
+2025-12-29 20:11:08.601 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.612 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 9999
+2025-12-29 20:11:08.686 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.704 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 2
+2025-12-29 20:11:08.719 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 3
+2025-12-29 20:11:08.735 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 4
+2025-12-29 20:11:08.746 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by order ID: ORDER001
+2025-12-29 20:11:08.759 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by order ID: NON_EXISTENT
+2025-12-29 20:11:08.769 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.770 [main] INFO  com.apex.core.dao.AfterSalesDAO - Updating after sales record ID: 1
+2025-12-29 20:11:08.775 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales record updated. Rows affected: 1
+2025-12-29 20:11:08.776 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.785 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.786 [main] WARN  com.apex.core.dao.AfterSalesDAO - Deleting after sales record ID: 1
+2025-12-29 20:11:08.787 [main] WARN  com.apex.core.dao.AfterSalesDAO - After sales record deleted. Rows affected: 1
+2025-12-29 20:11:08.787 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.797 [main] WARN  com.apex.core.dao.AfterSalesDAO - Deleting after sales record ID: 9999
+2025-12-29 20:11:08.798 [main] WARN  com.apex.core.dao.AfterSalesDAO - After sales record deleted. Rows affected: 0
+2025-12-29 20:11:08.808 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding all after sales records. Page: 1, PageSize: 2
+2025-12-29 20:11:08.811 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding all after sales records. Page: 2, PageSize: 2
+2025-12-29 20:11:08.823 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding all after sales records. Page: 1, PageSize: 10
+2025-12-29 20:11:08.835 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by status: 1
+2025-12-29 20:11:08.837 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by status: 4
+2025-12-29 20:11:08.904 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by status: 1
+2025-12-29 20:11:08.915 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by status: 2
+2025-12-29 20:11:08.926 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by status: 3
+2025-12-29 20:11:08.935 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales records by status: 4
+2025-12-29 20:11:08.962 [main] INFO  com.apex.core.dao.AfterSalesDAO - Updating after sales status. ID: 1, New Status: 2
+2025-12-29 20:11:08.970 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales status updated. Rows affected: 1
+2025-12-29 20:11:08.971 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:08.978 [main] INFO  com.apex.core.dao.AfterSalesDAO - Updating after sales status. ID: 9999, New Status: 2
+2025-12-29 20:11:08.980 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales status updated. Rows affected: 0
+2025-12-29 20:11:08.986 [main] INFO  com.apex.core.dao.AfterSalesDAO - Creating after sales record for order: ORDER002
+2025-12-29 20:11:08.988 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales record created successfully. ID: 7
+2025-12-29 20:11:08.988 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 7
+2025-12-29 20:11:08.989 [main] INFO  com.apex.core.dao.AfterSalesDAO - Updating after sales status. ID: 7, New Status: 2
+2025-12-29 20:11:08.989 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales status updated. Rows affected: 1
+2025-12-29 20:11:08.989 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 7
+2025-12-29 20:11:08.990 [main] INFO  com.apex.core.dao.AfterSalesDAO - Updating after sales status. ID: 7, New Status: 4
+2025-12-29 20:11:08.991 [main] INFO  com.apex.core.dao.AfterSalesDAO - After sales status updated. Rows affected: 1
+2025-12-29 20:11:08.991 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 7
+2025-12-29 20:11:08.991 [main] WARN  com.apex.core.dao.AfterSalesDAO - Deleting after sales record ID: 7
+2025-12-29 20:11:08.991 [main] WARN  com.apex.core.dao.AfterSalesDAO - After sales record deleted. Rows affected: 1
+2025-12-29 20:11:08.991 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 7
+2025-12-29 20:11:08.999 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding all after sales records. Page: 1, PageSize: 10
+2025-12-29 20:11:09.005 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:09.006 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 2
+2025-12-29 20:11:09.007 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 4
+2025-12-29 20:11:09.015 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 1
+2025-12-29 20:11:09.016 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 2
+2025-12-29 20:11:09.016 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 3
+2025-12-29 20:11:09.017 [main] DEBUG com.apex.core.dao.AfterSalesDAO - Finding after sales record by ID: 4
+2025-12-29 20:11:37.126 [main] INFO  com.apex.core.dao.IncomeDAO - Creating income record for order: ORDER001
+2025-12-29 20:11:37.144 [main] INFO  com.apex.core.dao.IncomeDAO - Income record created successfully. ID: 6
+2025-12-29 20:11:37.160 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 6
+2025-12-29 20:11:37.193 [main] INFO  com.apex.core.dao.IncomeDAO - Creating income record for order: ORDER002
+2025-12-29 20:11:37.196 [main] INFO  com.apex.core.dao.IncomeDAO - Income record created successfully. ID: 7
+2025-12-29 20:11:37.196 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 7
+2025-12-29 20:11:37.206 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.216 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 9999
+2025-12-29 20:11:37.287 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.305 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 2
+2025-12-29 20:11:37.313 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 3
+2025-12-29 20:11:37.324 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 4
+2025-12-29 20:11:37.336 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 5
+2025-12-29 20:11:37.346 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by order ID: ORDER001
+2025-12-29 20:11:37.356 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by order ID: NON_EXISTENT
+2025-12-29 20:11:37.363 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.365 [main] INFO  com.apex.core.dao.IncomeDAO - Updating income record ID: 1
+2025-12-29 20:11:37.372 [main] INFO  com.apex.core.dao.IncomeDAO - Income record updated. Rows affected: 1
+2025-12-29 20:11:37.373 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.382 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.384 [main] WARN  com.apex.core.dao.IncomeDAO - Deleting income record ID: 1
+2025-12-29 20:11:37.385 [main] WARN  com.apex.core.dao.IncomeDAO - Income record deleted. Rows affected: 1
+2025-12-29 20:11:37.385 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.392 [main] WARN  com.apex.core.dao.IncomeDAO - Deleting income record ID: 9999
+2025-12-29 20:11:37.394 [main] WARN  com.apex.core.dao.IncomeDAO - Income record deleted. Rows affected: 0
+2025-12-29 20:11:37.402 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding all income records. Page: 1, PageSize: 2
+2025-12-29 20:11:37.403 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding all income records. Page: 2, PageSize: 2
+2025-12-29 20:11:37.413 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding all income records. Page: 1, PageSize: 10
+2025-12-29 20:11:37.415 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding all income records. Page: 1, PageSize: 10
+2025-12-29 20:11:37.422 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by type: income
+2025-12-29 20:11:37.424 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by type: refund
+2025-12-29 20:11:37.431 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by status: 1
+2025-12-29 20:11:37.432 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by status: 2
+2025-12-29 20:11:37.464 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 4
+2025-12-29 20:11:37.466 [main] INFO  com.apex.core.dao.IncomeDAO - Updating income status. ID: 4, New Status: 2
+2025-12-29 20:11:37.468 [main] INFO  com.apex.core.dao.IncomeDAO - Income status updated. Rows affected: 1
+2025-12-29 20:11:37.468 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 4
+2025-12-29 20:11:37.474 [main] INFO  com.apex.core.dao.IncomeDAO - Updating income status. ID: 9999, New Status: 2
+2025-12-29 20:11:37.476 [main] INFO  com.apex.core.dao.IncomeDAO - Income status updated. Rows affected: 0
+2025-12-29 20:11:37.481 [main] INFO  com.apex.core.dao.IncomeDAO - Creating income record for order: ORDER002
+2025-12-29 20:11:37.482 [main] INFO  com.apex.core.dao.IncomeDAO - Income record created successfully. ID: 8
+2025-12-29 20:11:37.483 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 8
+2025-12-29 20:11:37.484 [main] INFO  com.apex.core.dao.IncomeDAO - Updating income status. ID: 8, New Status: 2
+2025-12-29 20:11:37.485 [main] INFO  com.apex.core.dao.IncomeDAO - Income status updated. Rows affected: 1
+2025-12-29 20:11:37.485 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 8
+2025-12-29 20:11:37.486 [main] WARN  com.apex.core.dao.IncomeDAO - Deleting income record ID: 8
+2025-12-29 20:11:37.486 [main] WARN  com.apex.core.dao.IncomeDAO - Income record deleted. Rows affected: 1
+2025-12-29 20:11:37.486 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 8
+2025-12-29 20:11:37.492 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding all income records. Page: 1, PageSize: 10
+2025-12-29 20:11:37.500 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding all income records. Page: 1, PageSize: 10
+2025-12-29 20:11:37.506 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.506 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 2
+2025-12-29 20:11:37.514 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 4
+2025-12-29 20:11:37.515 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income record by ID: 1
+2025-12-29 20:11:37.569 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by type: income
+2025-12-29 20:11:37.579 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by type: income
+2025-12-29 20:11:37.587 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by type: refund
+2025-12-29 20:11:37.596 [main] DEBUG com.apex.core.dao.IncomeDAO - Finding income records by type: refund
+2025-12-29 20:11:47.475 [main] INFO  com.apex.core.dao.InventoryLogDAO - Creating inventory log for product: 1, type: sale, quantity: -3
+2025-12-29 20:11:47.514 [main] INFO  com.apex.core.dao.InventoryLogDAO - Inventory log created successfully. ID: 11
+2025-12-29 20:11:47.533 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 11
+2025-12-29 20:11:47.575 [main] INFO  com.apex.core.dao.InventoryLogDAO - Creating inventory log for product: 1, type: adjust, quantity: 10
+2025-12-29 20:11:47.576 [main] INFO  com.apex.core.dao.InventoryLogDAO - Inventory log created successfully. ID: 12
+2025-12-29 20:11:47.576 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 12
+2025-12-29 20:11:47.592 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 1
+2025-12-29 20:11:47.604 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 9999
+2025-12-29 20:11:47.668 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 1
+2025-12-29 20:11:47.688 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 2
+2025-12-29 20:11:47.701 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 3
+2025-12-29 20:11:47.713 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 4
+2025-12-29 20:11:47.725 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 5
+2025-12-29 20:11:47.735 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 6
+2025-12-29 20:11:47.746 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 7
+2025-12-29 20:11:47.756 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 8
+2025-12-29 20:11:47.766 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 9
+2025-12-29 20:11:47.775 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 10
+2025-12-29 20:11:47.785 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 1. Page: 1, PageSize: 2
+2025-12-29 20:11:47.786 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 1. Page: 2, PageSize: 2
+2025-12-29 20:11:47.787 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 1. Page: 3, PageSize: 2
+2025-12-29 20:11:47.797 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 999. Page: 1, PageSize: 10
+2025-12-29 20:11:47.806 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for order: ORDER001
+2025-12-29 20:11:47.816 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for order: NON_EXISTENT
+2025-12-29 20:11:47.824 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs by type: purchase. Page: 1, PageSize: 10
+2025-12-29 20:11:47.826 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs by type: sale. Page: 1, PageSize: 10
+2025-12-29 20:11:47.826 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs by type: adjust. Page: 1, PageSize: 10
+2025-12-29 20:11:47.835 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding latest inventory log for product: 1
+2025-12-29 20:11:47.844 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding latest inventory log for product: 999
+2025-12-29 20:11:47.851 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating purchase quantity for product: 1
+2025-12-29 20:11:47.862 [main] INFO  com.apex.core.dao.InventoryLogDAO - Purchase quantity for product 1: 100
+2025-12-29 20:11:47.862 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating purchase quantity for product: 2
+2025-12-29 20:11:47.862 [main] INFO  com.apex.core.dao.InventoryLogDAO - Purchase quantity for product 2: 30
+2025-12-29 20:11:47.871 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating purchase quantity for product: 999
+2025-12-29 20:11:47.872 [main] INFO  com.apex.core.dao.InventoryLogDAO - Purchase quantity for product 999: 0
+2025-12-29 20:11:47.880 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating sales quantity for product: 1
+2025-12-29 20:11:47.881 [main] INFO  com.apex.core.dao.InventoryLogDAO - Sales quantity for product 1: 3
+2025-12-29 20:11:47.882 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating sales quantity for product: 2
+2025-12-29 20:11:47.882 [main] INFO  com.apex.core.dao.InventoryLogDAO - Sales quantity for product 2: 10
+2025-12-29 20:11:47.890 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating sales quantity for product: 999
+2025-12-29 20:11:47.891 [main] INFO  com.apex.core.dao.InventoryLogDAO - Sales quantity for product 999: 0
+2025-12-29 20:11:47.899 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding low stock products (threshold: 5)
+2025-12-29 20:11:47.900 [main] WARN  com.apex.core.dao.InventoryLogDAO - Low stock product: 小米13 (ID: 4, Stock: 0)
+2025-12-29 20:11:47.901 [main] WARN  com.apex.core.dao.InventoryLogDAO - Low stock product: 华为Mate 50 (ID: 3, Stock: 5)
+2025-12-29 20:11:47.911 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding low stock products (threshold: 100)
+2025-12-29 20:11:47.912 [main] WARN  com.apex.core.dao.InventoryLogDAO - Low stock product: 小米13 (ID: 4, Stock: 0)
+2025-12-29 20:11:47.912 [main] WARN  com.apex.core.dao.InventoryLogDAO - Low stock product: 华为Mate 50 (ID: 3, Stock: 5)
+2025-12-29 20:11:47.912 [main] WARN  com.apex.core.dao.InventoryLogDAO - Low stock product: MacBook Pro 16英寸 (ID: 2, Stock: 20)
+2025-12-29 20:11:47.912 [main] WARN  com.apex.core.dao.InventoryLogDAO - Low stock product: iPhone 14 Pro (ID: 1, Stock: 50)
+2025-12-29 20:11:47.919 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding recent inventory changes. Limit: 3
+2025-12-29 20:11:47.927 [main] INFO  com.apex.core.dao.InventoryLogDAO - Creating batch inventory logs. Count: 3
+2025-12-29 20:11:47.935 [main] INFO  com.apex.core.dao.InventoryLogDAO - Batch inventory logs created successfully. Total rows affected: 3
+2025-12-29 20:11:47.935 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 13
+2025-12-29 20:11:47.936 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 14
+2025-12-29 20:11:47.937 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 15
+2025-12-29 20:11:47.937 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding recent inventory changes. Limit: 10
+2025-12-29 20:11:47.947 [main] INFO  com.apex.core.dao.InventoryLogDAO - Creating batch inventory logs. Count: 0
+2025-12-29 20:11:47.948 [main] INFO  com.apex.core.dao.InventoryLogDAO - Batch inventory logs created successfully. Total rows affected: 0
+2025-12-29 20:11:47.954 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating purchase quantity for product: 1
+2025-12-29 20:11:47.955 [main] INFO  com.apex.core.dao.InventoryLogDAO - Purchase quantity for product 1: 100
+2025-12-29 20:11:47.955 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Calculating sales quantity for product: 1
+2025-12-29 20:11:47.956 [main] INFO  com.apex.core.dao.InventoryLogDAO - Sales quantity for product 1: 3
+2025-12-29 20:11:47.956 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs by type: adjust. Page: 1, PageSize: 10
+2025-12-29 20:11:47.963 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 1
+2025-12-29 20:11:47.963 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 2
+2025-12-29 20:11:47.965 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory log by ID: 4
+2025-12-29 20:11:47.971 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding recent inventory changes. Limit: 100
+2025-12-29 20:11:47.978 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding recent inventory changes. Limit: 100
+2025-12-29 20:11:48.039 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 1. Page: 1, PageSize: 100
+2025-12-29 20:11:48.048 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 1. Page: 1, PageSize: 100
+2025-12-29 20:11:48.056 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 1. Page: 1, PageSize: 100
+2025-12-29 20:11:48.062 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 2. Page: 1, PageSize: 100
+2025-12-29 20:11:48.070 [main] DEBUG com.apex.core.dao.InventoryLogDAO - Finding inventory logs for product: 2. Page: 1, PageSize: 100
+2025-12-29 20:11:58.753 [main] INFO  com.apex.core.dao.LogisticsDAO - Creating logistics record for order: LOG_NEW_001
+2025-12-29 20:11:58.767 [main] INFO  com.apex.core.dao.LogisticsDAO - Logistics record created successfully. ID: 4
+2025-12-29 20:11:58.781 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by ID: 4
+2025-12-29 20:11:58.807 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by ID: 1
+2025-12-29 20:11:58.813 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by ID: 999
+2025-12-29 20:11:58.822 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG001
+2025-12-29 20:11:58.828 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG001
+2025-12-29 20:11:58.830 [main] INFO  com.apex.core.dao.LogisticsDAO - Updating logistics record for order: LOG001
+2025-12-29 20:11:58.835 [main] INFO  com.apex.core.dao.LogisticsDAO - Logistics record updated. Rows affected: 1
+2025-12-29 20:11:58.836 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by ID: 1
+2025-12-29 20:11:58.843 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by ID: 1
+2025-12-29 20:11:58.844 [main] WARN  com.apex.core.dao.LogisticsDAO - Deleting logistics record ID: 1
+2025-12-29 20:11:58.844 [main] WARN  com.apex.core.dao.LogisticsDAO - Logistics record deleted. Rows affected: 1
+2025-12-29 20:11:58.844 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by ID: 1
+2025-12-29 20:11:58.851 [main] INFO  com.apex.core.dao.LogisticsDAO - Updating logistics status. Order: LOG001, New Status: shipped
+2025-12-29 20:11:58.851 [main] INFO  com.apex.core.dao.LogisticsDAO - Logistics status updated. Rows affected: 1
+2025-12-29 20:11:58.851 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG001
+2025-12-29 20:11:58.964 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG001
+2025-12-29 20:11:58.978 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG002
+2025-12-29 20:11:58.985 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG003
+2025-12-29 20:11:58.993 [main] INFO  com.apex.core.dao.LogisticsDAO - Updating shipping info for order: LOG001
+2025-12-29 20:11:59.002 [main] INFO  com.apex.core.dao.LogisticsDAO - Shipping info updated. Rows affected: 1
+2025-12-29 20:11:59.002 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG001
+2025-12-29 20:11:59.008 [main] INFO  com.apex.core.dao.LogisticsDAO - Updating delivery info for order: LOG002
+2025-12-29 20:11:59.009 [main] INFO  com.apex.core.dao.LogisticsDAO - Delivery info updated. Rows affected: 1
+2025-12-29 20:11:59.009 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG002
+2025-12-29 20:11:59.015 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding pending shipping logistics. Page: 1, PageSize: 10
+2025-12-29 20:11:59.022 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding in-transit logistics. Page: 1, PageSize: 10
+2025-12-29 20:11:59.028 [main] DEBUG com.apex.core.dao.LogisticsDAO - Getting logistics statistics
+2025-12-29 20:11:59.037 [main] INFO  com.apex.core.dao.LogisticsDAO - Logistics stats: Pending=1, Shipped=1, Delivered=1
+2025-12-29 20:11:59.043 [main] INFO  com.apex.core.dao.LogisticsDAO - Creating logistics record for order: LOG_NULL_TEST
+2025-12-29 20:11:59.044 [main] INFO  com.apex.core.dao.LogisticsDAO - Logistics record created successfully. ID: 5
+2025-12-29 20:11:59.045 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding logistics record by order ID: LOG_NULL_TEST
+2025-12-29 20:11:59.056 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding pending shipping logistics. Page: 1, PageSize: 5
+2025-12-29 20:11:59.057 [main] DEBUG com.apex.core.dao.LogisticsDAO - Finding pending shipping logistics. Page: 2, PageSize: 5
+2025-12-29 20:12:11.848 [main] INFO  com.apex.core.dao.OrderInfoDAO - [INSERT_ORDER] Starting order creation. Order ID: TEST_CREATE_001, User ID: 1001
+2025-12-29 20:12:11.862 [main] INFO  com.apex.core.dao.OrderInfoDAO - [INSERT_ORDER] Order created successfully in 14 ms. Order ID: TEST_CREATE_001, Rows affected: 1
+2025-12-29 20:12:11.880 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST_CREATE_001
+2025-12-29 20:12:11.890 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 10 ms. Order ID: TEST_CREATE_001, Status: 1
+2025-12-29 20:12:11.914 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:11.916 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 2 ms. Order ID: TEST001, Status: 1
+2025-12-29 20:12:11.926 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: NON_EXISTENT
+2025-12-29 20:12:11.927 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] No order found with ID: NON_EXISTENT (searched for 1 ms)
+2025-12-29 20:12:12.011 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:12.012 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 2 ms. Order ID: TEST001, Status: 1
+2025-12-29 20:12:12.035 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST002
+2025-12-29 20:12:12.036 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: TEST002, Status: 2
+2025-12-29 20:12:12.048 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST003
+2025-12-29 20:12:12.049 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: TEST003, Status: 3
+2025-12-29 20:12:12.061 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:12.063 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 2 ms. Order ID: TEST001, Status: 1
+2025-12-29 20:12:12.063 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER] Starting order update. Order ID: TEST001, New Status: 2
+2025-12-29 20:12:12.070 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER] Order updated successfully in 7 ms. Order ID: TEST001, Rows affected: 1
+2025-12-29 20:12:12.070 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:12.071 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: TEST001, Status: 2
+2025-12-29 20:12:12.082 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Updating order status. Order ID: TEST001, New Status: 2
+2025-12-29 20:12:12.084 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Order status updated successfully in 2 ms. Order ID: TEST001, New Status: 2
+2025-12-29 20:12:12.084 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:12.085 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: TEST001, Status: 2
+2025-12-29 20:12:12.094 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:12.095 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: TEST001, Status: 1
+2025-12-29 20:12:12.097 [main] ERROR com.apex.core.dao.OrderInfoDAO - [DELETE_ORDER_DISABLED] Direct deletion of orders is disabled due to foreign key constraints. Order ID: TEST001. Please use OrderManager.deleteOrderWithItems() method instead.
+2025-12-29 20:12:12.098 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: TEST001
+2025-12-29 20:12:12.099 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: TEST001, Status: 1
+2025-12-29 20:12:12.109 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ALL_ORDERS_PAGINATED] Retrieving orders. Page: 1, PageSize: 2, Offset: 0
+2025-12-29 20:12:12.112 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ALL_ORDERS_PAGINATED] Retrieved 2 orders in 3 ms. Page: 1, PageSize: 2
+2025-12-29 20:12:12.112 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ALL_ORDERS_PAGINATED] Retrieving orders. Page: 2, PageSize: 2, Offset: 2
+2025-12-29 20:12:12.112 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ALL_ORDERS_PAGINATED] Retrieved 1 orders in 0 ms. Page: 2, PageSize: 2
+2025-12-29 20:12:12.122 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieving orders for user. User ID: 1001, Page: 1, PageSize: 10
+2025-12-29 20:12:12.123 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieved 2 orders for user 1001 in 1 ms
+2025-12-29 20:12:12.183 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieving orders for user. User ID: 1001, Page: 1, PageSize: 10
+2025-12-29 20:12:12.185 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieved 2 orders for user 1001 in 2 ms
+2025-12-29 20:12:12.194 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieving orders for user. User ID: 1002, Page: 1, PageSize: 10
+2025-12-29 20:12:12.195 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieved 1 orders for user 1002 in 1 ms
+2025-12-29 20:12:12.203 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieving orders for user. User ID: 9999, Page: 1, PageSize: 10
+2025-12-29 20:12:12.204 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ORDERS_BY_USER] Retrieved 0 orders for user 9999 in 1 ms
+2025-12-29 20:12:12.212 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [COUNT_ORDERS] Counting total orders
+2025-12-29 20:12:12.214 [main] INFO  com.apex.core.dao.OrderInfoDAO - [COUNT_ORDERS] Total orders: 3 (counted in 2 ms)
+2025-12-29 20:12:12.222 [main] INFO  com.apex.core.dao.OrderInfoDAO - [INSERT_ORDER] Starting order creation. Order ID: STATUS_FLOW_TEST, User ID: 1001
+2025-12-29 20:12:12.223 [main] INFO  com.apex.core.dao.OrderInfoDAO - [INSERT_ORDER] Order created successfully in 1 ms. Order ID: STATUS_FLOW_TEST, Rows affected: 1
+2025-12-29 20:12:12.223 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Updating order status. Order ID: STATUS_FLOW_TEST, New Status: 2
+2025-12-29 20:12:12.224 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Order status updated successfully in 1 ms. Order ID: STATUS_FLOW_TEST, New Status: 2
+2025-12-29 20:12:12.224 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: STATUS_FLOW_TEST
+2025-12-29 20:12:12.225 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: STATUS_FLOW_TEST, Status: 2
+2025-12-29 20:12:12.225 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Updating order status. Order ID: STATUS_FLOW_TEST, New Status: 3
+2025-12-29 20:12:12.226 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Order status updated successfully in 1 ms. Order ID: STATUS_FLOW_TEST, New Status: 3
+2025-12-29 20:12:12.226 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Updating order status. Order ID: STATUS_FLOW_TEST, New Status: 4
+2025-12-29 20:12:12.226 [main] INFO  com.apex.core.dao.OrderInfoDAO - [UPDATE_ORDER_STATUS] Order status updated successfully in 0 ms. Order ID: STATUS_FLOW_TEST, New Status: 4
+2025-12-29 20:12:12.233 [main] INFO  com.apex.core.dao.OrderInfoDAO - [INSERT_ORDER] Starting order creation. Order ID: NULL_TEST, User ID: 1001
+2025-12-29 20:12:12.234 [main] INFO  com.apex.core.dao.OrderInfoDAO - [INSERT_ORDER] Order created successfully in 1 ms. Order ID: NULL_TEST, Rows affected: 1
+2025-12-29 20:12:12.235 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Searching for order by ID: NULL_TEST
+2025-12-29 20:12:12.236 [main] DEBUG com.apex.core.dao.OrderInfoDAO - [SELECT_ORDER_BY_ID] Order found in 1 ms. Order ID: NULL_TEST, Status: 1
+2025-12-29 20:12:12.244 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ALL_ORDERS_PAGINATED] Retrieving orders. Page: 1, PageSize: 10, Offset: 0
+2025-12-29 20:12:12.245 [main] INFO  com.apex.core.dao.OrderInfoDAO - [SELECT_ALL_ORDERS_PAGINATED] Retrieved 0 orders in 1 ms. Page: 1, PageSize: 10
+2025-12-29 20:12:19.832 [main] INFO  com.apex.core.dao.OrderItemDAO - Creating order item for order: ITEM001
+2025-12-29 20:12:19.846 [main] INFO  com.apex.core.dao.OrderItemDAO - Order item created successfully. ID: 6
+2025-12-29 20:12:19.860 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 6
+2025-12-29 20:12:19.885 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 1
+2025-12-29 20:12:19.893 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 999
+2025-12-29 20:12:19.905 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order items by order ID: ITEM001
+2025-12-29 20:12:19.914 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 1
+2025-12-29 20:12:19.915 [main] INFO  com.apex.core.dao.OrderItemDAO - Updating order item ID: 1
+2025-12-29 20:12:19.921 [main] INFO  com.apex.core.dao.OrderItemDAO - Order item updated. Rows affected: 1
+2025-12-29 20:12:19.921 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 1
+2025-12-29 20:12:19.929 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 1
+2025-12-29 20:12:19.929 [main] WARN  com.apex.core.dao.OrderItemDAO - Deleting order item ID: 1
+2025-12-29 20:12:19.930 [main] WARN  com.apex.core.dao.OrderItemDAO - Order item deleted. Rows affected: 1
+2025-12-29 20:12:19.930 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order item by ID: 1
+2025-12-29 20:12:19.938 [main] INFO  com.apex.core.dao.OrderItemDAO - Creating batch order items. Count: 2
+2025-12-29 20:12:19.943 [main] INFO  com.apex.core.dao.OrderItemDAO - Batch order items created successfully. Total rows affected: 2
+2025-12-29 20:12:19.943 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order items by order ID: ITEM_BATCH_001
+2025-12-29 20:12:19.951 [main] DEBUG com.apex.core.dao.OrderItemDAO - Calculating total for order: ITEM001
+2025-12-29 20:12:19.958 [main] INFO  com.apex.core.dao.OrderItemDAO - Order total calculated: 20997.00
+2025-12-29 20:12:19.966 [main] DEBUG com.apex.core.dao.OrderItemDAO - Calculating total for order: EMPTY001
+2025-12-29 20:12:19.967 [main] INFO  com.apex.core.dao.OrderItemDAO - Order total calculated: null
+2025-12-29 20:12:19.976 [main] DEBUG com.apex.core.dao.OrderItemDAO - Counting sales for product: 1
+2025-12-29 20:12:19.991 [main] INFO  com.apex.core.dao.OrderItemDAO - Product sales count: 3
+2025-12-29 20:12:19.997 [main] DEBUG com.apex.core.dao.OrderItemDAO - Counting sales for product: 999
+2025-12-29 20:12:19.998 [main] INFO  com.apex.core.dao.OrderItemDAO - Product sales count: 0
+2025-12-29 20:12:20.007 [main] DEBUG com.apex.core.dao.OrderItemDAO - Getting top 3 products
+2025-12-29 20:12:20.008 [main] INFO  com.apex.core.dao.OrderItemDAO - Found 3 top products
+2025-12-29 20:12:20.106 [main] DEBUG com.apex.core.dao.OrderItemDAO - Calculating total for order: ITEM001
+2025-12-29 20:12:20.106 [main] INFO  com.apex.core.dao.OrderItemDAO - Order total calculated: 20997.00
+2025-12-29 20:12:20.120 [main] DEBUG com.apex.core.dao.OrderItemDAO - Calculating total for order: ITEM002
+2025-12-29 20:12:20.121 [main] INFO  com.apex.core.dao.OrderItemDAO - Order total calculated: 18999.00
+2025-12-29 20:12:20.128 [main] DEBUG com.apex.core.dao.OrderItemDAO - Calculating total for order: ITEM003
+2025-12-29 20:12:20.129 [main] INFO  com.apex.core.dao.OrderItemDAO - Order total calculated: 7999.00
+2025-12-29 20:12:20.136 [main] INFO  com.apex.core.dao.OrderItemDAO - Creating batch order items. Count: 50
+2025-12-29 20:12:20.156 [main] INFO  com.apex.core.dao.OrderItemDAO - Batch order items created successfully. Total rows affected: 50
+2025-12-29 20:12:20.156 [main] DEBUG com.apex.core.dao.OrderItemDAO - Finding order items by order ID: LARGE_BATCH
+2025-12-29 20:12:25.911 [main] INFO  com.apex.core.dao.ProductDAO - Creating product: 测试商品
+2025-12-29 20:12:25.931 [main] INFO  com.apex.core.dao.ProductDAO - Product created successfully. ID: 9
+2025-12-29 20:12:25.948 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 9
+2025-12-29 20:12:25.982 [main] INFO  com.apex.core.dao.ProductDAO - Creating product: 无图商品
+2025-12-29 20:12:25.984 [main] INFO  com.apex.core.dao.ProductDAO - Product created successfully. ID: 10
+2025-12-29 20:12:25.984 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 10
+2025-12-29 20:12:25.997 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.009 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 9999
+2025-12-29 20:12:26.090 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.107 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 2
+2025-12-29 20:12:26.115 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 3
+2025-12-29 20:12:26.126 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 4
+2025-12-29 20:12:26.133 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 5
+2025-12-29 20:12:26.142 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 6
+2025-12-29 20:12:26.149 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 7
+2025-12-29 20:12:26.161 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 8
+2025-12-29 20:12:26.171 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.171 [main] INFO  com.apex.core.dao.ProductDAO - Updating product ID: 1
+2025-12-29 20:12:26.177 [main] INFO  com.apex.core.dao.ProductDAO - Product updated. Rows affected: 1
+2025-12-29 20:12:26.177 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.185 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.188 [main] ERROR com.apex.core.dao.ProductDAO - [DELETE_ORDER_DISABLED] Direct deletion of product is disabled due to foreign key constraints. Order ID: 1. Please use ProductManager.deleteProductWithItems() method instead.
+2025-12-29 20:12:26.188 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.196 [main] DEBUG com.apex.core.dao.ProductDAO - Finding all products. Page: 1, PageSize: 3
+2025-12-29 20:12:26.198 [main] DEBUG com.apex.core.dao.ProductDAO - Finding all products. Page: 2, PageSize: 3
+2025-12-29 20:12:26.199 [main] DEBUG com.apex.core.dao.ProductDAO - Finding all products. Page: 3, PageSize: 3
+2025-12-29 20:12:26.208 [main] DEBUG com.apex.core.dao.ProductDAO - Finding all products. Page: 1, PageSize: 10
+2025-12-29 20:12:26.210 [main] DEBUG com.apex.core.dao.ProductDAO - Finding all products. Page: 1, PageSize: 10
+2025-12-29 20:12:26.221 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 手机
+2025-12-29 20:12:26.223 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 电脑
+2025-12-29 20:12:26.223 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 不存在
+2025-12-29 20:12:26.230 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by status: 1
+2025-12-29 20:12:26.232 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by status: 0
+2025-12-29 20:12:26.238 [main] DEBUG com.apex.core.dao.ProductDAO - Searching products by name keyword: iPhone
+2025-12-29 20:12:26.241 [main] DEBUG com.apex.core.dao.ProductDAO - Searching products by name keyword: Pro
+2025-12-29 20:12:26.242 [main] DEBUG com.apex.core.dao.ProductDAO - Searching products by name keyword: 华为
+2025-12-29 20:12:26.243 [main] DEBUG com.apex.core.dao.ProductDAO - Searching products by name keyword: 不存在
+2025-12-29 20:12:26.251 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.252 [main] INFO  com.apex.core.dao.ProductDAO - Updating product stock. ID: 1, New Stock: 100
+2025-12-29 20:12:26.252 [main] INFO  com.apex.core.dao.ProductDAO - Product stock updated. Rows affected: 1
+2025-12-29 20:12:26.252 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.253 [main] INFO  com.apex.core.dao.ProductDAO - Updating product stock. ID: 9999, New Stock: 100
+2025-12-29 20:12:26.253 [main] INFO  com.apex.core.dao.ProductDAO - Product stock updated. Rows affected: 0
+2025-12-29 20:12:26.260 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.261 [main] INFO  com.apex.core.dao.ProductDAO - Increasing product stock. ID: 1, Quantity: 20
+2025-12-29 20:12:26.265 [main] INFO  com.apex.core.dao.ProductDAO - Product stock increased. Rows affected: 1
+2025-12-29 20:12:26.265 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.266 [main] INFO  com.apex.core.dao.ProductDAO - Increasing product stock. ID: 1, Quantity: -10
+2025-12-29 20:12:26.267 [main] INFO  com.apex.core.dao.ProductDAO - Product stock increased. Rows affected: 1
+2025-12-29 20:12:26.267 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.274 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.276 [main] INFO  com.apex.core.dao.ProductDAO - Decreasing product stock. ID: 1, Quantity: 10
+2025-12-29 20:12:26.277 [main] INFO  com.apex.core.dao.ProductDAO - Product stock decreased. Rows affected: 1
+2025-12-29 20:12:26.277 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.284 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.285 [main] INFO  com.apex.core.dao.ProductDAO - Decreasing product stock. ID: 1, Quantity: 100
+2025-12-29 20:12:26.286 [main] INFO  com.apex.core.dao.ProductDAO - Product stock decreased. Rows affected: 0
+2025-12-29 20:12:26.286 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.294 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.294 [main] INFO  com.apex.core.dao.ProductDAO - Updating product status. ID: 1, New Status: 0
+2025-12-29 20:12:26.295 [main] INFO  com.apex.core.dao.ProductDAO - Product status updated. Rows affected: 1
+2025-12-29 20:12:26.295 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.295 [main] INFO  com.apex.core.dao.ProductDAO - Updating product status. ID: 1, New Status: 1
+2025-12-29 20:12:26.296 [main] INFO  com.apex.core.dao.ProductDAO - Product status updated. Rows affected: 1
+2025-12-29 20:12:26.296 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.321 [main] INFO  com.apex.core.dao.ProductDAO - Creating product: 生命周期测试商品
+2025-12-29 20:12:26.322 [main] INFO  com.apex.core.dao.ProductDAO - Product created successfully. ID: 11
+2025-12-29 20:12:26.323 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 11
+2025-12-29 20:12:26.323 [main] INFO  com.apex.core.dao.ProductDAO - Updating product ID: 11
+2025-12-29 20:12:26.324 [main] INFO  com.apex.core.dao.ProductDAO - Product updated. Rows affected: 1
+2025-12-29 20:12:26.324 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 11
+2025-12-29 20:12:26.326 [main] INFO  com.apex.core.dao.ProductDAO - Increasing product stock. ID: 11, Quantity: 30
+2025-12-29 20:12:26.326 [main] INFO  com.apex.core.dao.ProductDAO - Product stock increased. Rows affected: 1
+2025-12-29 20:12:26.326 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 11
+2025-12-29 20:12:26.327 [main] INFO  com.apex.core.dao.ProductDAO - Decreasing product stock. ID: 11, Quantity: 20
+2025-12-29 20:12:26.327 [main] INFO  com.apex.core.dao.ProductDAO - Product stock decreased. Rows affected: 1
+2025-12-29 20:12:26.327 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 11
+2025-12-29 20:12:26.328 [main] INFO  com.apex.core.dao.ProductDAO - Updating product status. ID: 11, New Status: 0
+2025-12-29 20:12:26.329 [main] INFO  com.apex.core.dao.ProductDAO - Product status updated. Rows affected: 1
+2025-12-29 20:12:26.329 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 11
+2025-12-29 20:12:26.330 [main] ERROR com.apex.core.dao.ProductDAO - [DELETE_ORDER_DISABLED] Direct deletion of product is disabled due to foreign key constraints. Order ID: 11. Please use ProductManager.deleteProductWithItems() method instead.
+2025-12-29 20:12:26.343 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.345 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 4
+2025-12-29 20:12:26.397 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 手机
+2025-12-29 20:12:26.409 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 手机
+2025-12-29 20:12:26.419 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 电脑
+2025-12-29 20:12:26.427 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 电脑
+2025-12-29 20:12:26.438 [main] DEBUG com.apex.core.dao.ProductDAO - Finding products by category: 平板
+2025-12-29 20:12:26.448 [main] DEBUG com.apex.core.dao.ProductDAO - Searching products by name keyword: Test
+2025-12-29 20:12:26.449 [main] DEBUG com.apex.core.dao.ProductDAO - Searching products by name keyword: Test
+2025-12-29 20:12:26.458 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.459 [main] INFO  com.apex.core.dao.ProductDAO - Decreasing product stock. ID: 1, Quantity: 50
+2025-12-29 20:12:26.459 [main] INFO  com.apex.core.dao.ProductDAO - Product stock decreased. Rows affected: 1
+2025-12-29 20:12:26.459 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.460 [main] INFO  com.apex.core.dao.ProductDAO - Decreasing product stock. ID: 1, Quantity: 1
+2025-12-29 20:12:26.460 [main] INFO  com.apex.core.dao.ProductDAO - Product stock decreased. Rows affected: 0
+2025-12-29 20:12:26.460 [main] INFO  com.apex.core.dao.ProductDAO - Increasing product stock. ID: 1, Quantity: 0
+2025-12-29 20:12:26.461 [main] INFO  com.apex.core.dao.ProductDAO - Product stock increased. Rows affected: 1
+2025-12-29 20:12:26.461 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.461 [main] INFO  com.apex.core.dao.ProductDAO - Updating product stock. ID: 1, New Stock: -10
+2025-12-29 20:12:26.463 [main] INFO  com.apex.core.dao.ProductDAO - Product stock updated. Rows affected: 1
+2025-12-29 20:12:26.463 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 1
+2025-12-29 20:12:26.468 [main] INFO  com.apex.core.dao.ProductDAO - Creating product: 负库存商品
+2025-12-29 20:12:26.469 [main] INFO  com.apex.core.dao.ProductDAO - Product created successfully. ID: 16
+2025-12-29 20:12:26.469 [main] DEBUG com.apex.core.dao.ProductDAO - Finding product by ID: 16
+2025-12-29 20:12:34.780 [main] INFO  com.apex.core.dao.ReviewDAO - Creating review for product: 2 by user: 1
+2025-12-29 20:12:34.793 [main] INFO  com.apex.core.dao.ReviewDAO - Review created successfully. ID: 6
+2025-12-29 20:12:34.808 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 6
+2025-12-29 20:12:34.840 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 1
+2025-12-29 20:12:34.851 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 999
+2025-12-29 20:12:34.861 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by order ID: REVIEW001
+2025-12-29 20:12:34.873 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding reviews for product: 1. Page: 1, PageSize: 10
+2025-12-29 20:12:34.883 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding reviews for product: 1. Page: 1, PageSize: 2
+2025-12-29 20:12:34.885 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding reviews for product: 1. Page: 2, PageSize: 2
+2025-12-29 20:12:34.893 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding reviews by user: 1. Page: 1, PageSize: 10
+2025-12-29 20:12:34.902 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 1
+2025-12-29 20:12:34.903 [main] INFO  com.apex.core.dao.ReviewDAO - Updating review ID: 1
+2025-12-29 20:12:34.908 [main] INFO  com.apex.core.dao.ReviewDAO - Review updated. Rows affected: 1
+2025-12-29 20:12:34.908 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 1
+2025-12-29 20:12:34.925 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 1
+2025-12-29 20:12:34.926 [main] WARN  com.apex.core.dao.ReviewDAO - Deleting review ID: 1
+2025-12-29 20:12:34.927 [main] WARN  com.apex.core.dao.ReviewDAO - Review deleted. Rows affected: 1
+2025-12-29 20:12:34.927 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 1
+2025-12-29 20:12:34.934 [main] DEBUG com.apex.core.dao.ReviewDAO - Getting average rating for product: 1
+2025-12-29 20:12:34.941 [main] INFO  com.apex.core.dao.ReviewDAO - Average rating for product 1: 4.333333333333333
+2025-12-29 20:12:34.950 [main] DEBUG com.apex.core.dao.ReviewDAO - Getting average rating for product: 999
+2025-12-29 20:12:34.950 [main] INFO  com.apex.core.dao.ReviewDAO - Average rating for product 999: 0.0
+2025-12-29 20:12:34.957 [main] DEBUG com.apex.core.dao.ReviewDAO - Getting rating distribution for product: 1
+2025-12-29 20:12:34.960 [main] INFO  com.apex.core.dao.ReviewDAO - Rating distribution for product 1: 1星:0, 2星:0, 3星:1, 4星:0, 5星:2 (总计:3)
+2025-12-29 20:12:34.969 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding reviews with images for product: 1. Limit: 3
+2025-12-29 20:12:34.982 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding latest reviews. Limit: 3
+2025-12-29 20:12:34.991 [main] DEBUG com.apex.core.dao.ReviewDAO - Counting reviews for product: 1
+2025-12-29 20:12:34.992 [main] INFO  com.apex.core.dao.ReviewDAO - Review count for product 1: 3
+2025-12-29 20:12:35.000 [main] DEBUG com.apex.core.dao.ReviewDAO - Counting reviews for product: 999
+2025-12-29 20:12:35.001 [main] INFO  com.apex.core.dao.ReviewDAO - Review count for product 999: 0
+2025-12-29 20:12:35.008 [main] INFO  com.apex.core.dao.ReviewDAO - Creating review for product: 2 by user: 1
+2025-12-29 20:12:35.009 [main] INFO  com.apex.core.dao.ReviewDAO - Review created successfully. ID: 7
+2025-12-29 20:12:35.009 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 7
+2025-12-29 20:12:35.015 [main] INFO  com.apex.core.dao.ReviewDAO - Creating review for product: 2 by user: 1
+2025-12-29 20:12:35.015 [main] INFO  com.apex.core.dao.ReviewDAO - Review created successfully. ID: 8
+2025-12-29 20:12:35.015 [main] DEBUG com.apex.core.dao.ReviewDAO - Finding review by ID: 8
+2025-12-29 20:12:35.107 [main] DEBUG com.apex.core.dao.ReviewDAO - Counting reviews for product: 1
+2025-12-29 20:12:35.108 [main] INFO  com.apex.core.dao.ReviewDAO - Review count for product 1: 3
+2025-12-29 20:12:35.123 [main] DEBUG com.apex.core.dao.ReviewDAO - Counting reviews for product: 2
+2025-12-29 20:12:35.125 [main] INFO  com.apex.core.dao.ReviewDAO - Review count for product 2: 1
+2025-12-29 20:12:35.134 [main] DEBUG com.apex.core.dao.ReviewDAO - Counting reviews for product: 3
+2025-12-29 20:12:35.135 [main] INFO  com.apex.core.dao.ReviewDAO - Review count for product 3: 1
+2025-12-29 20:12:35.142 [main] DEBUG com.apex.core.dao.ReviewDAO - Counting reviews for product: 999
+2025-12-29 20:12:35.143 [main] INFO  com.apex.core.dao.ReviewDAO - Review count for product 999: 0
+2025-12-29 20:12:35.151 [main] DEBUG com.apex.core.dao.ReviewDAO - Getting rating distribution for product: 2
+2025-12-29 20:12:35.152 [main] INFO  com.apex.core.dao.ReviewDAO - Rating distribution for product 2: 1星:1, 2星:1, 3星:0, 4星:1, 5星:0 (总计:3)
+2025-12-29 20:12:41.217 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: newuser
+2025-12-29 20:12:41.233 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 6
+2025-12-29 20:12:41.233 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 16 ms. Username: newuser, ID: 6
+2025-12-29 20:12:41.249 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 6
+2025-12-29 20:12:41.260 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 11 ms. ID: 6, Username: newuser
+2025-12-29 20:12:41.280 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:12:41.280 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 1, Username: admin
+2025-12-29 20:12:41.287 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 999
+2025-12-29 20:12:41.288 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] No user found with ID: 999 (searched for 1 ms)
+2025-12-29 20:12:41.296 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager1
+2025-12-29 20:12:41.297 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: manager1, ID: 2
+2025-12-29 20:12:41.304 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_EMAIL] Searching for user by email: manager2@apexflow.com
+2025-12-29 20:12:41.304 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_EMAIL] User found in 0 ms. Email: manager2@apexflow.com, ID: 3
+2025-12-29 20:12:41.311 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 20:12:41.312 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 2, Username: manager1
+2025-12-29 20:12:41.312 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 2, Username: manager1
+2025-12-29 20:12:41.318 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 6 ms. ID: 2, Username: manager1
+2025-12-29 20:12:41.319 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 20:12:41.319 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 2, Username: manager1
+2025-12-29 20:12:41.326 [main] DEBUG com.apex.core.dao.UserDAO - [UPDATE_LAST_LOGIN_TIME] Updating last login time for user ID: 1
+2025-12-29 20:12:41.327 [main] DEBUG com.apex.core.dao.UserDAO - [UPDATE_LAST_LOGIN_TIME] Last login time updated successfully in 1 ms. User ID: 1
+2025-12-29 20:12:41.328 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:12:41.328 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 1, Username: admin
+2025-12-29 20:12:41.334 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER_STATUS] Updating user status. User ID: 1, New Status: 0
+2025-12-29 20:12:41.335 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER_STATUS] User status updated successfully in 1 ms. User ID: 1, New Status: 0
+2025-12-29 20:12:41.335 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:12:41.336 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 1, Username: admin
+2025-12-29 20:12:41.342 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:12:41.343 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 4, Username: operator1
+2025-12-29 20:12:41.343 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] Attempting to delete user. User ID: 4
+2025-12-29 20:12:41.344 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] User deleted successfully in 1 ms. User ID: 4
+2025-12-29 20:12:41.344 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:12:41.344 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] No user found with ID: 4 (searched for 0 ms)
+2025-12-29 20:12:41.350 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] Attempting to delete user. User ID: 999
+2025-12-29 20:12:41.350 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] No user found to delete. User ID: 999 (took 0 ms)
+2025-12-29 20:12:41.356 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 1, PageSize: 2, Offset: 0
+2025-12-29 20:12:41.357 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 2 users in 1 ms. Page: 1, PageSize: 2
+2025-12-29 20:12:41.357 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 2, PageSize: 2, Offset: 2
+2025-12-29 20:12:41.359 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 2 users in 2 ms. Page: 2, PageSize: 2
+2025-12-29 20:12:41.359 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 3, PageSize: 2, Offset: 4
+2025-12-29 20:12:41.360 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 1 users in 1 ms. Page: 3, PageSize: 2
+2025-12-29 20:12:41.368 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieving users by status. Status: 1, Page: 1, PageSize: 10
+2025-12-29 20:12:41.370 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieved 4 users with status 1 in 2 ms
+2025-12-29 20:12:41.371 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieving users by status. Status: 0, Page: 1, PageSize: 10
+2025-12-29 20:12:41.371 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieved 1 users with status 0 in 1 ms
+2025-12-29 20:12:41.387 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '经理', Page: 1, PageSize: 10
+2025-12-29 20:12:41.394 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 2 users with keyword '经理' in 7 ms
+2025-12-29 20:12:41.401 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: 'apexflow.com', Page: 1, PageSize: 10
+2025-12-29 20:12:41.403 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 5 users with keyword 'apexflow.com' in 2 ms
+2025-12-29 20:12:41.409 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '8001', Page: 1, PageSize: 10
+2025-12-29 20:12:41.411 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 5 users with keyword '8001' in 2 ms
+2025-12-29 20:12:41.417 [main] DEBUG com.apex.core.dao.UserDAO - [COUNT_USERS] Counting total users
+2025-12-29 20:12:41.419 [main] INFO  com.apex.core.dao.UserDAO - [COUNT_USERS] Total users: 5 (counted in 2 ms)
+2025-12-29 20:12:41.424 [main] DEBUG com.apex.core.dao.UserDAO - [COUNT_ACTIVE_USERS] Counting active users
+2025-12-29 20:12:41.430 [main] INFO  com.apex.core.dao.UserDAO - [COUNT_ACTIVE_USERS] Active users: 4 (counted in 6 ms)
+2025-12-29 20:12:41.441 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Checking if username exists: admin
+2025-12-29 20:12:41.442 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Username 'admin' exists: true (checked in 1 ms)
+2025-12-29 20:12:41.447 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Checking if username exists: nonexistent
+2025-12-29 20:12:41.449 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Username 'nonexistent' exists: false (checked in 2 ms)
+2025-12-29 20:12:41.455 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Checking if email exists: admin@apexflow.com
+2025-12-29 20:12:41.456 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Email 'admin@apexflow.com' exists: true (checked in 1 ms)
+2025-12-29 20:12:41.460 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Checking if email exists: nonexistent@apexflow.com
+2025-12-29 20:12:41.462 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Email 'nonexistent@apexflow.com' exists: false (checked in 2 ms)
+2025-12-29 20:12:41.513 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: admin
+2025-12-29 20:12:41.515 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 2 ms. Username: admin, ID: 1
+2025-12-29 20:12:41.528 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager1
+2025-12-29 20:12:41.529 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: manager1, ID: 2
+2025-12-29 20:12:41.535 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager2
+2025-12-29 20:12:41.536 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: manager2, ID: 3
+2025-12-29 20:12:41.542 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: operator1
+2025-12-29 20:12:41.544 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 2 ms. Username: operator1, ID: 4
+2025-12-29 20:12:41.551 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: inactive_user
+2025-12-29 20:12:41.552 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: inactive_user, ID: 5
+2025-12-29 20:12:41.608 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:12:41.609 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 1, Username: admin
+2025-12-29 20:12:41.616 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 20:12:41.617 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 2, Username: manager1
+2025-12-29 20:12:41.623 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 3
+2025-12-29 20:12:41.624 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 3, Username: manager2
+2025-12-29 20:12:41.629 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:12:41.630 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 4, Username: operator1
+2025-12-29 20:12:41.638 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 5
+2025-12-29 20:12:41.639 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 5, Username: inactive_user
+2025-12-29 20:12:41.644 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:12:41.645 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 1, Username: admin
+2025-12-29 20:12:41.646 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:12:41.646 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 4, Username: operator1
+2025-12-29 20:12:41.656 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: minimal
+2025-12-29 20:12:41.658 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 7
+2025-12-29 20:12:41.658 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 2 ms. Username: minimal, ID: 7
+2025-12-29 20:12:41.658 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 7
+2025-12-29 20:12:41.659 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 7, Username: minimal
+2025-12-29 20:12:41.666 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 1, PageSize: 10, Offset: 0
+2025-12-29 20:12:41.667 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 0 users in 1 ms. Page: 1, PageSize: 10
+2025-12-29 20:12:41.671 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '不存在的关键词', Page: 1, PageSize: 10
+2025-12-29 20:12:41.672 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 0 users with keyword '不存在的关键词' in 1 ms
+2025-12-29 20:12:41.676 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 999, Username: nonexistent
+2025-12-29 20:12:41.677 [main] WARN  com.apex.core.dao.UserDAO - [UPDATE_USER] User update did not affect any rows. ID: 999 (took 1 ms)
+2025-12-29 20:12:41.681 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: timestamp_test
+2025-12-29 20:12:41.682 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 8
+2025-12-29 20:12:41.682 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 1 ms. Username: timestamp_test, ID: 8
+2025-12-29 20:12:41.700 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 8, Username: timestamp_test
+2025-12-29 20:12:41.702 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 2 ms. ID: 8, Username: timestamp_test
+2025-12-29 20:12:41.702 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 8
+2025-12-29 20:12:41.702 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 8, Username: timestamp_test
+2025-12-29 20:29:15.179 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: newuser
+2025-12-29 20:29:15.188 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 6
+2025-12-29 20:29:15.189 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 10 ms. Username: newuser, ID: 6
+2025-12-29 20:29:15.196 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 6
+2025-12-29 20:29:15.201 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 5 ms. ID: 6, Username: newuser
+2025-12-29 20:29:15.213 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:29:15.214 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 1, Username: admin
+2025-12-29 20:29:15.217 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 999
+2025-12-29 20:29:15.218 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] No user found with ID: 999 (searched for 1 ms)
+2025-12-29 20:29:15.224 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager1
+2025-12-29 20:29:15.225 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: manager1, ID: 2
+2025-12-29 20:29:15.230 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_EMAIL] Searching for user by email: manager2@apexflow.com
+2025-12-29 20:29:15.231 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_EMAIL] User found in 1 ms. Email: manager2@apexflow.com, ID: 3
+2025-12-29 20:29:15.235 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 20:29:15.236 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 2, Username: manager1
+2025-12-29 20:29:15.236 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 2, Username: manager1
+2025-12-29 20:29:15.238 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 2 ms. ID: 2, Username: manager1
+2025-12-29 20:29:15.238 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 20:29:15.239 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 2, Username: manager1
+2025-12-29 20:29:15.243 [main] DEBUG com.apex.core.dao.UserDAO - [UPDATE_LAST_LOGIN_TIME] Updating last login time for user ID: 1
+2025-12-29 20:29:15.243 [main] DEBUG com.apex.core.dao.UserDAO - [UPDATE_LAST_LOGIN_TIME] Last login time updated successfully in 0 ms. User ID: 1
+2025-12-29 20:29:15.244 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:29:15.244 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 1, Username: admin
+2025-12-29 20:29:15.248 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER_STATUS] Updating user status. User ID: 1, New Status: 0
+2025-12-29 20:29:15.248 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER_STATUS] User status updated successfully in 0 ms. User ID: 1, New Status: 0
+2025-12-29 20:29:15.249 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:29:15.249 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 1, Username: admin
+2025-12-29 20:29:15.253 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:29:15.254 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 4, Username: operator1
+2025-12-29 20:29:15.254 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] Attempting to delete user. User ID: 4
+2025-12-29 20:29:15.254 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] User deleted successfully in 0 ms. User ID: 4
+2025-12-29 20:29:15.255 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:29:15.255 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] No user found with ID: 4 (searched for 0 ms)
+2025-12-29 20:29:15.259 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] Attempting to delete user. User ID: 999
+2025-12-29 20:29:15.260 [main] WARN  com.apex.core.dao.UserDAO - [DELETE_USER] No user found to delete. User ID: 999 (took 1 ms)
+2025-12-29 20:29:15.264 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 1, PageSize: 2, Offset: 0
+2025-12-29 20:29:15.266 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 2 users in 2 ms. Page: 1, PageSize: 2
+2025-12-29 20:29:15.266 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 2, PageSize: 2, Offset: 2
+2025-12-29 20:29:15.266 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 2 users in 0 ms. Page: 2, PageSize: 2
+2025-12-29 20:29:15.266 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 3, PageSize: 2, Offset: 4
+2025-12-29 20:29:15.267 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 1 users in 1 ms. Page: 3, PageSize: 2
+2025-12-29 20:29:15.271 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieving users by status. Status: 1, Page: 1, PageSize: 10
+2025-12-29 20:29:15.272 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieved 4 users with status 1 in 1 ms
+2025-12-29 20:29:15.272 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieving users by status. Status: 0, Page: 1, PageSize: 10
+2025-12-29 20:29:15.274 [main] INFO  com.apex.core.dao.UserDAO - [FIND_USERS_BY_STATUS] Retrieved 1 users with status 0 in 2 ms
+2025-12-29 20:29:15.278 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '经理', Page: 1, PageSize: 10
+2025-12-29 20:29:15.282 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 2 users with keyword '经理' in 5 ms
+2025-12-29 20:29:15.289 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: 'apexflow.com', Page: 1, PageSize: 10
+2025-12-29 20:29:15.290 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 5 users with keyword 'apexflow.com' in 1 ms
+2025-12-29 20:29:15.294 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '8001', Page: 1, PageSize: 10
+2025-12-29 20:29:15.295 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 5 users with keyword '8001' in 1 ms
+2025-12-29 20:29:15.299 [main] DEBUG com.apex.core.dao.UserDAO - [COUNT_USERS] Counting total users
+2025-12-29 20:29:15.299 [main] INFO  com.apex.core.dao.UserDAO - [COUNT_USERS] Total users: 5 (counted in 0 ms)
+2025-12-29 20:29:15.305 [main] DEBUG com.apex.core.dao.UserDAO - [COUNT_ACTIVE_USERS] Counting active users
+2025-12-29 20:29:15.307 [main] INFO  com.apex.core.dao.UserDAO - [COUNT_ACTIVE_USERS] Active users: 4 (counted in 2 ms)
+2025-12-29 20:29:15.311 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Checking if username exists: admin
+2025-12-29 20:29:15.312 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Username 'admin' exists: true (checked in 1 ms)
+2025-12-29 20:29:15.316 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Checking if username exists: nonexistent
+2025-12-29 20:29:15.316 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_USERNAME_EXISTS] Username 'nonexistent' exists: false (checked in 0 ms)
+2025-12-29 20:29:15.320 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Checking if email exists: admin@apexflow.com
+2025-12-29 20:29:15.321 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Email 'admin@apexflow.com' exists: true (checked in 1 ms)
+2025-12-29 20:29:15.325 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Checking if email exists: nonexistent@apexflow.com
+2025-12-29 20:29:15.325 [main] DEBUG com.apex.core.dao.UserDAO - [CHECK_EMAIL_EXISTS] Email 'nonexistent@apexflow.com' exists: false (checked in 0 ms)
+2025-12-29 20:29:15.367 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: admin
+2025-12-29 20:29:15.368 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: admin, ID: 1
+2025-12-29 20:29:15.378 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager1
+2025-12-29 20:29:15.379 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: manager1, ID: 2
+2025-12-29 20:29:15.383 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: manager2
+2025-12-29 20:29:15.383 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 0 ms. Username: manager2, ID: 3
+2025-12-29 20:29:15.388 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: operator1
+2025-12-29 20:29:15.390 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 2 ms. Username: operator1, ID: 4
+2025-12-29 20:29:15.394 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] Searching for user by username: inactive_user
+2025-12-29 20:29:15.395 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_USERNAME] User found in 1 ms. Username: inactive_user, ID: 5
+2025-12-29 20:29:15.417 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:29:15.419 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 2 ms. ID: 1, Username: admin
+2025-12-29 20:29:15.423 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 2
+2025-12-29 20:29:15.424 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 2, Username: manager1
+2025-12-29 20:29:15.428 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 3
+2025-12-29 20:29:15.429 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 3, Username: manager2
+2025-12-29 20:29:15.431 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:29:15.432 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 4, Username: operator1
+2025-12-29 20:29:15.436 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 5
+2025-12-29 20:29:15.437 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 5, Username: inactive_user
+2025-12-29 20:29:15.440 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 1
+2025-12-29 20:29:15.441 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 1, Username: admin
+2025-12-29 20:29:15.441 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 4
+2025-12-29 20:29:15.441 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 0 ms. ID: 4, Username: operator1
+2025-12-29 20:29:15.450 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: minimal
+2025-12-29 20:29:15.451 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 7
+2025-12-29 20:29:15.451 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 1 ms. Username: minimal, ID: 7
+2025-12-29 20:29:15.451 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 7
+2025-12-29 20:29:15.452 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 7, Username: minimal
+2025-12-29 20:29:15.457 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieving users. Page: 1, PageSize: 10, Offset: 0
+2025-12-29 20:29:15.457 [main] INFO  com.apex.core.dao.UserDAO - [FIND_ALL_USERS] Retrieved 0 users in 0 ms. Page: 1, PageSize: 10
+2025-12-29 20:29:15.459 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Searching users with keyword: '不存在的关键词', Page: 1, PageSize: 10
+2025-12-29 20:29:15.460 [main] INFO  com.apex.core.dao.UserDAO - [SEARCH_USERS] Found 0 users with keyword '不存在的关键词' in 1 ms
+2025-12-29 20:29:15.462 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 999, Username: nonexistent
+2025-12-29 20:29:15.462 [main] WARN  com.apex.core.dao.UserDAO - [UPDATE_USER] User update did not affect any rows. ID: 999 (took 0 ms)
+2025-12-29 20:29:15.467 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] Creating new user. Username: timestamp_test
+2025-12-29 20:29:15.468 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created with ID: 8
+2025-12-29 20:29:15.468 [main] INFO  com.apex.core.dao.UserDAO - [CREATE_USER] User created successfully in 1 ms. Username: timestamp_test, ID: 8
+2025-12-29 20:29:15.479 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] Updating user. ID: 8, Username: timestamp_test
+2025-12-29 20:29:15.481 [main] INFO  com.apex.core.dao.UserDAO - [UPDATE_USER] User updated successfully in 2 ms. ID: 8, Username: timestamp_test
+2025-12-29 20:29:15.481 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] Searching for user by ID: 8
+2025-12-29 20:29:15.482 [main] DEBUG com.apex.core.dao.UserDAO - [FIND_USER_BY_ID] User found in 1 ms. ID: 8, Username: timestamp_test

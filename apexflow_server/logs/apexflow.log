@@ -1735,3 +1735,506 @@ DELETE FROM apexflow_order WHERE id = 'ITEM001' [23503-220]
 2025-12-29 19:55:27.279 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
 2025-12-29 19:55:27.280 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
 2025-12-29 19:55:27.280 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 19:59:58.443 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 19:59:58.445 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 19:59:58.638 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 19:59:58.644 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 19:59:58.644 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 19:59:58.644 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 19:59:58.644 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 19:59:58.644 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 19:59:58.647 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 19:59:58.681 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 19:59:58.688 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 19:59:58.688 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 19:59:58.698 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.729 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.735 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.740 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.744 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.751 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.757 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.766 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.773 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.777 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.783 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.789 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.795 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.805 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.811 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.819 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.824 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.831 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.837 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.841 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.846 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.869 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.900 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.910 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.914 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.919 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.945 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.952 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.958 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.963 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.971 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.982 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.989 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.991 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.996 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:58.997 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:59.000 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:59.005 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:59.010 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 19:59:59.029 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 19:59:59.029 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 19:59:59.031 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 19:59:59.031 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:11:07.452 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:11:07.473 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:11:08.381 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:11:08.386 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:11:08.386 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:11:08.386 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:11:08.386 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:11:08.386 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:11:08.399 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:11:08.471 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:11:08.484 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:11:08.486 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:11:08.502 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.579 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.595 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.607 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.657 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.701 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.713 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.729 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.743 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.754 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.765 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.782 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.793 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.805 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.819 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.830 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.899 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.911 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.923 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.931 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.941 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.950 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.955 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.959 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.975 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.983 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:08.996 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:09.003 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:09.011 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:09.020 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:11:09.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:11:09.022 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:11:09.022 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:11:36.190 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:11:36.205 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:11:37.003 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:11:37.006 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:11:37.006 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:11:37.006 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:11:37.006 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:11:37.006 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:11:37.019 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:11:37.089 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:11:37.102 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:11:37.102 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:11:37.119 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.189 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.202 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.213 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.259 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.302 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.310 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.321 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.331 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.343 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.352 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.361 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.379 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.390 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.399 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.410 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.420 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.428 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.437 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.454 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.462 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.472 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.478 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.490 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.497 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.504 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.511 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.564 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.577 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.584 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.593 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:37.599 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:11:37.600 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:11:37.602 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:11:37.602 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:11:46.455 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:11:46.468 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:11:47.287 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:11:47.292 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:11:47.292 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:11:47.292 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:11:47.293 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:11:47.293 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:11:47.307 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:11:47.417 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:11:47.438 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:11:47.439 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:11:47.464 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.569 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.586 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.599 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.641 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.684 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.696 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.709 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.722 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.731 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.742 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.753 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.763 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.771 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.781 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.793 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.803 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.813 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.821 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.832 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.841 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.849 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.868 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.877 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.886 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.897 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.907 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.917 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.924 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.944 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.952 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.961 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.969 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:47.976 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:48.035 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:48.046 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:48.054 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:48.060 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:48.067 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:48.074 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:11:48.074 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:11:48.076 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:11:48.076 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:11:57.756 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:11:57.776 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:11:58.637 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:11:58.641 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:11:58.641 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:11:58.641 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:11:58.642 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:11:58.642 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:11:58.653 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:11:58.723 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:11:58.734 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:11:58.735 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:11:58.746 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.805 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.811 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.819 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.827 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.840 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.849 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.942 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.976 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.984 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:58.990 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.007 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.013 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.020 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.026 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.040 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.048 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:11:59.062 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:11:59.062 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:11:59.064 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:11:59.064 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:12:10.820 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:12:10.840 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:12:11.721 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:12:11.725 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:12:11.725 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:12:11.725 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:12:11.725 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:12:11.725 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:12:11.736 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:12:11.810 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:12:11.823 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:12:11.824 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:12:11.838 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:11.910 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:11.921 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:11.976 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.030 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.043 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.056 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.077 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.089 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.105 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.120 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.177 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.191 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.200 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.209 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.219 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.230 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.239 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.244 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:12.247 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:12:12.248 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:12:12.250 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:12:12.250 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:12:18.912 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:12:18.928 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:12:19.725 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:12:19.728 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:12:19.728 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:12:19.728 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:12:19.728 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:12:19.728 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:12:19.738 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:12:19.802 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:12:19.814 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:12:19.815 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:12:19.826 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.881 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.891 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.901 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.910 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.925 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.935 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.948 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.962 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.971 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:19.995 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.003 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.085 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.118 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.125 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.133 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.165 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:20.171 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order WHERE id = 'ITEM001' - Error: Referential integrity constraint violation: "CONSTRAINT_52: PUBLIC.APEXFLOW_ORDER_ITEM FOREIGN KEY(ORDER_ID) REFERENCES PUBLIC.APEXFLOW_ORDER(ID) ('ITEM001')"; SQL statement:
+DELETE FROM apexflow_order WHERE id = 'ITEM001' [23503-220]
+2025-12-29 20:12:20.174 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:12:20.174 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:12:20.175 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:12:20.175 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:12:24.988 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:12:25.004 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:12:25.786 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:12:25.790 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:12:25.790 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:12:25.790 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:12:25.790 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:12:25.790 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:12:25.801 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:12:25.873 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:12:25.888 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:12:25.889 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:12:25.905 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:25.978 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:25.992 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.004 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.056 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.102 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.113 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.122 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.130 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.139 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.147 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.156 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.168 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.182 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.194 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.205 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.218 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.228 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.236 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.248 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.257 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.272 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.281 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.290 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.299 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.307 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.319 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.335 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.341 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.394 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.406 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.416 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.425 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.435 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.443 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.456 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:26.466 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:33.811 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:12:33.826 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:12:34.663 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:12:34.668 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:12:34.668 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:12:34.668 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:12:34.668 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:12:34.668 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:12:34.679 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:12:34.746 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:12:34.758 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:12:34.760 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:12:34.771 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.834 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.847 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.858 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.868 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.880 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.891 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.899 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.922 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.931 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.947 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.954 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.965 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.979 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.988 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:34.997 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.004 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.012 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.086 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.120 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.130 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.139 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.147 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:35.155 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:12:35.155 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:12:35.157 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:12:35.157 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:12:40.299 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:12:40.312 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:12:41.107 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:12:41.110 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:12:41.111 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:12:41.111 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:12:41.111 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:12:41.111 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:12:41.122 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:12:41.188 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:12:41.200 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:12:41.200 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:12:41.211 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.277 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.284 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.293 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.302 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.309 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.324 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.332 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.339 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.348 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.354 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.365 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.385 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.399 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.407 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.416 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.423 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.440 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.445 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.454 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.459 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.494 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.525 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.533 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.541 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.549 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.605 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.613 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.622 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.628 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.636 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.643 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.650 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.654 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.663 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.665 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.670 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.675 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.680 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:12:41.704 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:12:41.706 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:12:41.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:12:41.708 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 20:29:14.902 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 20:29:14.908 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 20:29:15.111 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 20:29:15.114 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 20:29:15.115 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 20:29:15.115 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 20:29:15.115 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 20:29:15.115 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 20:29:15.118 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 20:29:15.158 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 20:29:15.167 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 20:29:15.168 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 20:29:15.176 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.212 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.216 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.223 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.228 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.234 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.242 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.247 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.251 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.259 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.263 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.270 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.276 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.287 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.293 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.297 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.304 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.310 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.315 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.319 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.324 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.349 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.377 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.382 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.388 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.393 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.414 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.422 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.427 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.431 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.435 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.439 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.442 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.444 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.454 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.457 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.458 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.461 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.466 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 20:29:15.484 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 20:29:15.484 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 20:29:15.485 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 20:29:15.485 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
