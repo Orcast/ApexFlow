@@ -1,0 +1,154 @@
+2025-12-29 09:16:54.029 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 09:16:54.037 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 09:16:54.717 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bbc9f97
+2025-12-29 09:16:54.720 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 09:16:54.721 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 09:16:54.721 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 09:16:54.721 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 09:16:54.722 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:mysql://localhost:3306/apex_flow_root
+2025-12-29 09:16:54.849 [main] ERROR SQL_LOGGER - Statement execution failed after 36 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:54.895 [main] ERROR SQL_LOGGER - Statement execution failed after 6 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:54.928 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:54.937 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:54.946 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:54.954 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:54.965 [main] ERROR SQL_LOGGER - Statement execution failed after 7 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.014 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.031 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.061 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.069 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.074 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.111 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.116 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.123 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.130 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.146 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.151 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.155 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.191 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.228 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.236 [main] ERROR SQL_LOGGER - Statement execution failed after 2 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.244 [main] ERROR SQL_LOGGER - Statement execution failed after 4 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.250 [main] ERROR SQL_LOGGER - Statement execution failed after 3 ms: DELETE FROM apexflow_order - Error: Cannot delete or update a parent row: a foreign key constraint fails (`apex_flow_root`.`apexflow_after_sales`, CONSTRAINT `apexflow_after_sales_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `apexflow_order` (`id`))
+2025-12-29 09:16:55.256 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 09:16:55.256 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 09:16:55.265 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 09:16:55.265 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 09:34:58.009 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 09:34:58.019 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 09:34:58.385 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 09:34:58.388 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 09:34:58.388 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 09:34:58.388 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 09:34:58.388 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 09:34:58.388 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 09:34:58.393 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 09:34:58.455 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 09:34:58.467 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 09:34:58.467 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 09:34:58.478 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.507 [main] ERROR SQL_LOGGER - PreparedUpdate failed after 13 ms: INSERT INTO apexflow_order (id, user_id, total_amount, status,
+                           payment_method, address_id, created_at,
+                           paid_at, shipped_at, completed_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+ with params: [1="TEST_CREATE_001", 2=149.99, 3=1, 4="alipay", 5=1, 6=2025-12-29 09:34:58.4841827, 7="NULL", 8="NULL", 9="NULL"] - Error: Parameter "#10" is not set; SQL statement:
+INSERT INTO apexflow_order (id, user_id, total_amount, status,
+                           payment_method, address_id, created_at,
+                           paid_at, shipped_at, completed_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) [90012-220]
+2025-12-29 09:34:58.537 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.559 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.597 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.636 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.649 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.660 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.672 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.682 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.687 [main] ERROR SQL_LOGGER - PreparedUpdate failed after 0 ms: DELETE FROM apexflow_order WHERE id = ? with params: [1="TEST001"] - Error: Referential integrity constraint violation: "CONSTRAINT_52: PUBLIC.APEXFLOW_ORDER_ITEM FOREIGN KEY(ORDER_ID) REFERENCES PUBLIC.APEXFLOW_ORDER(ID) ('TEST001')"; SQL statement:
+DELETE FROM apexflow_order WHERE id = ? [23503-220]
+2025-12-29 09:34:58.694 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.706 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.741 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.751 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.760 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.770 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.783 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.787 [main] ERROR SQL_LOGGER - PreparedUpdate failed after 0 ms: INSERT INTO apexflow_order (id, user_id, total_amount, status,
+                           payment_method, address_id, created_at,
+                           paid_at, shipped_at, completed_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+ with params: [1="STATUS_FLOW_TEST", 2=199.99, 3=1, 4="alipay", 5="NULL", 6=2025-12-29 09:34:58.7868881, 7="NULL", 8="NULL", 9="NULL"] - Error: Parameter "#10" is not set; SQL statement:
+INSERT INTO apexflow_order (id, user_id, total_amount, status,
+                           payment_method, address_id, created_at,
+                           paid_at, shipped_at, completed_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) [90012-220]
+2025-12-29 09:34:58.795 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.801 [main] ERROR SQL_LOGGER - PreparedUpdate failed after 1 ms: INSERT INTO apexflow_order (id, user_id, total_amount, status,
+                           payment_method, address_id, created_at,
+                           paid_at, shipped_at, completed_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+ with params: [1="NULL_TEST", 2=99.99, 3=1, 4=null, 5="NULL", 6=2025-12-29 09:34:58.8003605, 7="NULL", 8="NULL", 9="NULL"] - Error: Parameter "#10" is not set; SQL statement:
+INSERT INTO apexflow_order (id, user_id, total_amount, status,
+                           payment_method, address_id, created_at,
+                           paid_at, shipped_at, completed_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) [90012-220]
+2025-12-29 09:34:58.809 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.815 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:34:58.819 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 09:34:58.820 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 09:34:58.823 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 09:34:58.824 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 09:43:29.750 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 09:43:29.759 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 09:43:30.101 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 09:43:30.103 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 09:43:30.103 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 09:43:30.103 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 09:43:30.104 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 09:43:30.104 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 09:43:30.108 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 09:43:30.168 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 09:43:30.179 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 09:43:30.179 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 09:43:30.190 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.241 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.251 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.286 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.326 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.339 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.352 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.368 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.378 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.387 [main] ERROR SQL_LOGGER - PreparedUpdate failed after 2 ms: DELETE FROM apexflow_order WHERE id = ? with params: [1="TEST001"] - Error: Referential integrity constraint violation: "CONSTRAINT_52: PUBLIC.APEXFLOW_ORDER_ITEM FOREIGN KEY(ORDER_ID) REFERENCES PUBLIC.APEXFLOW_ORDER(ID) ('TEST001')"; SQL statement:
+DELETE FROM apexflow_order WHERE id = ? [23503-220]
+2025-12-29 09:43:30.405 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.417 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.454 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.464 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.475 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.483 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.491 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.500 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.508 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.512 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:43:30.516 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 09:43:30.516 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 09:43:30.519 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 09:43:30.520 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
+2025-12-29 09:47:42.775 [main] INFO  com.apex.util.ConnectionPool - Initializing HikariCP connection pool...
+2025-12-29 09:47:42.786 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Starting...
+2025-12-29 09:47:43.149 [main] INFO  com.zaxxer.hikari.pool.HikariPool - ApexFlow-HikariPool - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-12-29 09:47:43.151 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Start completed.
+2025-12-29 09:47:43.151 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool initialized successfully
+2025-12-29 09:47:43.151 [main] INFO  com.apex.util.ConnectionPool - Connection Pool Name: ApexFlow-HikariPool
+2025-12-29 09:47:43.152 [main] INFO  com.apex.util.ConnectionPool - Maximum Pool Size: 20
+2025-12-29 09:47:43.152 [main] INFO  com.apex.util.ConnectionPool - JDBC URL: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+2025-12-29 09:47:43.156 [main] INFO  H2DatabaseInitializer - Initializing H2 in-memory database...
+2025-12-29 09:47:43.215 [main] INFO  H2DatabaseInitializer - All tables created successfully
+2025-12-29 09:47:43.224 [main] INFO  H2DatabaseInitializer - Test data inserted successfully
+2025-12-29 09:47:43.224 [main] INFO  H2DatabaseInitializer - H2 database initialization completed successfully
+2025-12-29 09:47:43.236 [main] INFO  H2DatabaseInitializer - All tables cleared successfully
+2025-12-29 09:47:43.281 [main] INFO  com.apex.util.ConnectionPool - Shutting down HikariCP connection pool...
+2025-12-29 09:47:43.282 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown initiated...
+2025-12-29 09:47:43.291 [main] INFO  com.zaxxer.hikari.HikariDataSource - ApexFlow-HikariPool - Shutdown completed.
+2025-12-29 09:47:43.291 [main] INFO  com.apex.util.ConnectionPool - HikariCP connection pool shutdown completed
